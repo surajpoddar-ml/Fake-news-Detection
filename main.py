@@ -106,5 +106,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
     st.sidebar.markdown("---")
     st.sidebar.write("**Created with enthusiasm by SuperSam**")

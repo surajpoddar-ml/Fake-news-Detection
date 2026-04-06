@@ -57,7 +57,7 @@ def train_and_cache_model(data, _vec, _clf):
 def main():
     st.set_page_config(page_title="Fake News Detection", page_icon=":metro:", layout="wide")
     
-    st.title("Fake News Detection :metro:-SURAJ AI HORIZON")
+    st.title("Fake News Detection :metro:-AI HORIZON")
     
     # Custom CSS to clean up UI
     st.markdown("""
@@ -106,6 +106,6 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
+
     st.sidebar.markdown("---")
     st.sidebar.write("**Created with enthusiasm by SuperSam**")

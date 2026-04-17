@@ -11,6 +11,7 @@ RUN pip install -r requirements.txt
 # Copy the rest of the application files to the container
 COPY . .
 
+
 # Expose the port that Streamlit runs on
 EXPOSE 8501
 
